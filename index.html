@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>General Knowledge Quiz</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="quiz-container">
+    <h1>General Knowledge Quiz</h1>
+
+    <div id="quiz-box">
+      <div id="question-number">Question 1</div>
+      <div id="question-text">Question goes here</div>
+
+      <div class="options">
+        <label class="option">
+          <input type="radio" name="answer" value="0" />
+          <span>A</span>
+        </label>
+        <label class="option">
+          <input type="radio" name="answer" value="1" />
+          <span>B</span>
+        </label>
+        <label class="option">
+          <input type="radio" name="answer" value="2" />
+          <span>C</span>
+        </label>
+        <label class="option">
+          <input type="radio" name="answer" value="3" />
+          <span>D</span>
+        </label>
+      </div>
+
+      <button id="next-btn">Next</button>
+    </div>
+
+    <div id="result-box" class="hidden">
+      <h2>Quiz Complete!</h2>
+      <p id="score-text"></p>
+      <button id="restart-btn">Play Again</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
